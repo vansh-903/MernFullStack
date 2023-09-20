@@ -1,0 +1,83 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Styled Page</title>
+    <style>
+      body {
+        background-color: yellow;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        display: flex;
+        padding: 20px;
+      }
+
+      .sidenav {
+        background-color: white;
+        color: blue;
+        padding: 20px;
+        text-align: center;
+        width: 200px;
+        height: 150px;
+      }
+
+      .sidenav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .sidenav li {
+        margin: 10px 0;
+      }
+
+      .sidenav a {
+        text-decoration: none;
+        color: blue;
+        transition: color 0.3s;
+      }
+
+      .sidenav a:hover {
+        color: maroon;
+      }
+
+      .content {
+        margin-left: 20px;
+        color: maroon;
+      }
+
+      .maroon-heading {
+        color: maroon;
+      }
+
+      .maroon-italic {
+        font-style: italic;
+        color: maroon;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidenav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Musings</a></li>
+          <li><a href="#">My Town</a></li>
+          <li><a href="#">Links</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <h1 class="maroon-heading">My First Styled Page</h1>
+        <p>Welcome to My Style Page!</p>
+        <p>It lacks images but at least has style.</p>
+        <p>It has links, even if they don't go anywhere...</p>
+        <p>There should be more here, but I don't know what yet.</p>
+        <hr>
+        <p><em class="maroon-italic">Made 5 April 2004</em></p>
+        <p><em class="maroon-italic">By Myself</em></p>
+      </div>
+    </div>
+  
+
+</body></html>

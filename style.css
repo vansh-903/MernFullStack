@@ -1,0 +1,40 @@
+.horizontal-nav {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.horizontal-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.horizontal-nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.horizontal-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.vertical-nav {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+}
+
+.vertical-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vertical-nav li {
+  margin-bottom: 10px;
+}
+
+.vertical-nav a {
+  text-decoration: none;
+  color: #fff;
+}
